@@ -1,5 +1,5 @@
 # Satellite Image Segmentation
-Hugging Face App link: https://huggingface.co/spaces/AdityaOnFire/Satellite_Image_Segmentation
+**Hugging Face App link:** https://huggingface.co/spaces/AdityaOnFire/Satellite_Image_Segmentation
 
 "Upload a satellite image of your chosen location to the provided Hugging Face link, and it will generate a segmented (masked) image for you."
 The primary goal is to accurately classify different regions in satellite images into various classes such as buildings, roads, vegetation, water bodies, etc.
@@ -7,20 +7,19 @@ The primary goal is to accurately classify different regions in satellite images
 ## Table of Contents
 
 * Overview
-* Satellite Image Segmentation
+* Satellite Image Segmentation - Applications
 * Dataset
 * Preprocessing
 * Model
 * Training
 * Results
-* Dependencies
 * Acknowledgements
 
 ## Overview
 The project focuses on the semantic segmentation of satellite images using a deep learning model. The U-Net model architecture is employed to perform the segmentation task. The model is trained and evaluated on a dataset of satellite images, with each image divided into patches to facilitate efficient training.
 
 ## Satellite Image Segmentation
-Satellite image segmentation is a process of partitioning a satellite image into multiple segments or regions to simplify its analysis. This technique is crucial in various applications, including urban planning, agriculture monitoring, environmental management, and disaster response. By accurately classifying different regions in satellite images, we can extract valuable information about land use, vegetation cover, water bodies, and built-up areas.
+**Satellite image segmentation is a process of partitioning a satellite image into multiple segments or regions to simplify its analysis. This technique is crucial in various applications, including urban planning, agriculture monitoring, environmental management, and disaster response. By accurately classifying different regions in satellite images, we can extract valuable information about land use, vegetation cover, water bodies, and built-up areas.**
 
 ## Dataset
 The dataset consists of satellite images and their corresponding masks. The images are categorized into various classes such as buildings, roads, vegetation, water bodies, and unlabeled regions. Each image is split into patches for better processing and model training.
