@@ -1,5 +1,7 @@
 # Satellite Image Segmentation
 Hugging Face App link: https://huggingface.co/spaces/AdityaOnFire/Satellite_Image_Segmentation
+
+"Upload a satellite image of your chosen location to the provided Hugging Face link, and it will generate a segmented (masked) image for you."
 The primary goal is to accurately classify different regions in satellite images into various classes such as buildings, roads, vegetation, water bodies, etc.
 
 ## Table of Contents
